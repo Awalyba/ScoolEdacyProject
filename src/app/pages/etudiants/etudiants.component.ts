@@ -48,8 +48,7 @@ addEditetudiants() {
       coursId: this.classeCours
     })
     }
-
-    this.cours.push(newetudiant);
+    this.cours.push(...this.etudiants);
     this.firstName = '';
     this.lastname = '';
     this.classeCours = '';
